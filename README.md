@@ -1,16 +1,24 @@
-# React + Vite
+# 🍔 Hamburgueria Digital - Sistema de Pedidos WhatsApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de Cardápio Digital moderno e responsivo, focado em agilizar o processo de pedidos para hamburguerias, marmitarias ou qualquer negócio de delivery. O sistema permite que o cliente selecione produtos, escolha tamanhos/opções, preencha dados de entrega e envie o pedido formatado diretamente para o WhatsApp do estabelecimento.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Cardápio Inteligente:** Exibe os itens de acordo com a categoria e disponibilidade.
+- **Variações de Preço:** Suporte para diferentes tamanhos (P, M, G) ou preços fixos.
+- **Carrinho de Compras:** Adição e remoção de itens com cálculo de total em tempo real.
+- **Check-out Integrado:** Formulário de nome, endereço e forma de pagamento dentro do app.
+- **Integração WhatsApp:** Envio de mensagem estruturada e pronta para produção.
+- **Design Responsivo:** Otimizado para dispositivos móveis (Mobile-First).
 
-## React Compiler
+## 🛠️ Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React.js** (Biblioteca principal)
+- **Vite** (Build tool rápida)
+- **Lucide React / Emoji Icons** (Interface visual)
+- **CSS3** (Estilização customizada e Flexbox)
+- **JavaScript (ES6+)**
 
-## Expanding the ESLint configuration
+## Acesse
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Acesse: https://hamburgaria-omega.vercel.app/
